@@ -1,0 +1,40 @@
+.gradient-background {
+    background: linear-gradient(300deg, #0596d2, #032a87, #03cbf0);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+@media screen  and (max-width: 576px) {
+    .logo-img {
+        height: 60px;
+        padding-left: 1rem;
+    }
+    
+    h1 {
+      letter-spacing: 0.25rem;
+    }
+    
+    #hr1 {
+      width: 50%;
+      margin-left: 25%;
+      border-top: 3px solid ;
+    }
+
+    .card-img-top {
+      height: 60px;
+      width: 60px;
+    }
+}

@@ -246,9 +246,15 @@
     color:#03CBF0
   }
 
-#hr-1 {
+.hr-1 {
     width: 100px;
     margin-left: 20%;
+}
+
+.hr-2 {
+  width: 100px;
+  margin-left: 20%;
+  
 }
 
 #features {

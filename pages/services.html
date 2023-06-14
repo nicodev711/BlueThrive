@@ -42,7 +42,7 @@
               <a href="#testimony">testimonils</a>
             </li>
             <li>
-              <a href="./contact.html">contact</a>
+              <a href="../pages/contact.html">contact</a>
             </li>
           </ul>
         </div>
@@ -60,18 +60,24 @@
     </div>
   </header>
   <main>
-    <div class="container-fluid" id="features">
-        <div class="row">
-            <div class="col-md-5">
-              <img src="../images/pexels-fauxels-3184613 (1).jpg" alt="meeting picture" class="img-fluid meeting">
+    <div class="container-lg" id="features">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
-            <div class="col-md-7 px-4 textw d-flex flex-column justify-content-center" id="cont2">
-              <h2 class="fw-bold text-body-emphasis">...but before coding we want to understand</h2>
-              <p class="text-body-secondary mt-4">At our web app agency, we firmly believe in delivering efficient and high-quality solutions to our clients. That's why, before diving into coding, we prioritize the crucial step of understanding. We recognize that to develop the most effective and tailored web applications, we must thoroughly comprehend the unique needs, objectives, and target audience of our clients.</p>
-              <p class="text-body-secondary">By taking the time to grasp these essential criteria, we can ensure that our coding process is guided by a deep understanding of the project's purpose and desired outcomes. This approach enables us to deliver solutions that not only meet but exceed our clients' expectations, resulting in successful and impactful web applications.</p>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
-        </div>
-      </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
   </main>
   <footer>
     <div class="container-fluid text-center py-3 m-4">
